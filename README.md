@@ -14,6 +14,13 @@ A Chrome Extension that blocks ads using **EasyList** network rules and basic **
 
 ---
 
+## 🖼️ UI Screenshots
+
+![AdBlocker UI 1](images/UI(1).png)
+![AdBlocker UI 2](images/UI(2).png)
+
+---
+
 ## 📁 Project Structure
 
 ```
@@ -23,7 +30,10 @@ adblocker-extension/
 │ ├── icon16.png           # 16x16 icon (browser toolbar)
 │ ├── icon32.png           # 32x32 icon
 │ ├── icon48.png           # 48x48 icon (Chrome Web Store)
-│ ├── icon128.png          # 128x128 icon (install splash)
+│ └── icon128.png          # 128x128 icon (install splash)
+├── images/                # UI Screenshots
+│   ├── UI(1).png          
+│   └── UI(2).png
 ├── ads_rules.json         # Auto-generated network rules (from EasyList)
 ├── background.js          # Service worker for managing dynamic rules
 ├── content.js             # Cosmetic filtering script (removes ad elements)
